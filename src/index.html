@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" type="text/css" href="../fonts/gothampro.ttf">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#"><span class="navigation__span">Cancel</span></a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">bot</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#">
+                        <svg class="navigation__svg" width="2" height="2" viewBox="0 0 2 2" fill="none" xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+                            <circle cx="1" cy="1" r="0.9" stroke="#417DC0" stroke-width="0.2"/>
+                            <circle cx="0.142857" cy="0.142857" r="0.142857" transform="matrix(1 0 0 -1 0.285156 1.14288)" fill="#417DC0"/>
+                            <circle cx="0.142857" cy="0.142857" r="0.142857" transform="matrix(1 0 0 -1 0.856445 1.14288)" fill="#417DC0"/>
+                            <circle cx="0.142857" cy="0.142857" r="0.142857" transform="matrix(1 0 0 -1 1.42773 1.14288)" fill="#417DC0"/>
+                        </svg>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main_wrapper">
+            <section class="main__information information">
+            <h1 class="information__heading">Теннис Тула</h1>
+            <h2 class="information__subheading">Большой теннис</h2>
+        </section>
+        <section class="main__userinfo userinfo">
+            <img class="userinf__image"src="../img/user.jpg" alt="User photo">
+            <div class="userinfo__block">
+                <h2 class="userinfo__heading">Урамов Климентий</h2>
+                <p class="userinfo__text">Группа: </p>
+                <p class="userinfo__text--group">9 - Зеленый мяч</p>
+                <p class="userinfo__text">Уровень подготовки:</p>
+                <p class="userinfo__text--range">новичок</p>
+            </div>
+        </section>
+        <section class="main__result result">
+            <div class="result__month">
+                <h2 class="result__heading">Август</h2>
+                <table class="result__table">
+                    <thead class="result__thead">
+                        <tr class="result__tr">
+                            <th class="result__th">Отыгрыши</th>
+                            <th class="result__th">Отмены</th>
+                            <th class="result__th">Задолжность</th>
+                        </tr>
+                    </thead>
+                    <tbody class="result__tbody">
+                        <tr class="result__tr">
+                            <td class="result__td">6</td>
+                            <td class="result__td">2</td>
+                            <td class="result__td--red">800р</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="result__month">
+                <h2 class="result__heading">Сентябрь</h2>
+                <table class="result__table">
+                    <thead class="result__thead">
+                        <tr class="result__tr">
+                            <th class="result__th">Отыгрыши</th>
+                            <th class="result__th">Отмены</th>
+                            <th class="result__th">Задолжность</th>
+                        </tr>
+                    </thead>
+                    <tbody class="result__tbody">
+                        <tr class="result__tr">
+                            <td class="result__td">0</td>
+                            <td class="result__td">0</td>
+                            <td class="result__td--green">0р</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="result__buttons">
+                <a href="#" class="result__payhistory">ИСТОРИЯ ПЛАТЕЖЕЙ</a>
+                <a href="#" class="result__rules">ПРАВИЛА ШКОЛЫ</a>
+            </div>
+        </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

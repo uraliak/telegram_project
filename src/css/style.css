@@ -1,0 +1,212 @@
+body {
+    font-family: 'Gotham Pro', sans-serif;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/gothampro.ttf') format('truetype');
+  }
+  
+  body {
+    font-family: 'Gotham Pro', sans-serif;
+  }
+
+  .header__wrapper, .main__wrapper{
+    width: 100%;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+  padding-top: 179px;
+}
+
+.navigation__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 39px;
+}
+
+.navigation__svg{
+  width: 60px;
+  height: 60px;
+}
+
+.navigation__list, .navigation__item{
+  list-style: none;
+}
+
+.navigation__link{
+  text-decoration: none;
+}
+
+.navigation__span{
+  color: #417DC0;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.navigation__link{
+  color: #6b6b6b;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.information__heading{
+  color: #000;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.information__subheading{
+  color: #000;
+  font-size: 60px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: -76px;
+}
+
+.userinfo__heading{
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.userinfo__text{
+  color: #000;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -20px;
+  width: 501px;
+}
+
+.userinfo__text--group{
+  color: #57A618;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -24px;
+}
+
+.userinfo__text--range{
+  color: #00B74A;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -36px;
+}
+
+.result__heading{
+  color: #57A618;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.result__th, .result__td, .result__td--red, .result__td--green{
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.result__td--green{
+  color: #00B74A;
+}
+
+.result__td--red{
+  color: #F00;
+}
+
+.result__buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.result__payhistory{
+  display: flex;
+  color: #000;
+  font-size: 40px;
+  font-weight: 700;
+  border: 2px solid #000;
+  margin-bottom: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-top: 80px;
+}
+
+.result__rules{
+  display: flex;
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 700;
+  background: #00B74A;
+  padding-left: 330px;
+  padding-right: 330px;
+}
+
+.result__payhistory,
+.result__rules {
+    display: inline-block; /* Чтобы border-radius сработал, элемент должен быть блочным или строчно-блочным */
+    padding-top: 37px;
+    padding-bottom: 37px;
+    border-radius: 30px; /* Закругление углов */
+    text-decoration: none; /* Убираем подчеркивание для стилизации ссылок */
+}
+
+.result__table{
+  border-radius: 30px;
+  border: 2px solid #000;
+  margin-top: 100px;
+}
+
+.result__thead, .result__tr, .result__th{
+  stroke-width: 2px;
+  stroke: #000;
+}
+
+.main__information{
+  margin-top: 191px;
+}
+
+.main__userinfo{
+  margin-top: 123px;
+  margin-left: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 245px;
+}
+
+.userinfo__block{
+  display: flex;
+  flex-direction: column;
+  margin-left: 62px;
+}
+
+.main__result{
+  margin-top: 94px;
+  margin-left: 119px;
+}
+
+.result__table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #000000;
+	border-collapse: collapse; 
+}
+.result__th {
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid #000000;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.result__td {
+	border: 1px solid #000000;
+	padding: 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
