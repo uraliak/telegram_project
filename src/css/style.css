@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: 'Gotham Pro';
-    src: url('../fonts/gothampro.ttf') format('truetype');
+    src: url('../../fonts/gothampro.ttf') format('truetype');
   }
   
   body {
@@ -136,6 +136,32 @@ body {
   margin-top: 80px;
 }
 
+.main__button{
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  border: 2px solid #000;
+  padding-left: 458px;
+  padding-right: 465px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+  margin-top: 29px;
+  margin-left: 43px;
+}
+
+.user_main__button{
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  border: 2px solid #000;
+  padding-left: 362px;
+  padding-top: 37px;
+  padding-bottom: 35px;
+  margin-top: 119px;
+  margin-left: -4px;
+  width: 726px;
+}
+
 .result__rules{
   display: flex;
   color: #FFF;
@@ -146,12 +172,58 @@ body {
   padding-right: 330px;
 }
 
+.team__button{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 500;
+  background: #00B74A;
+  padding-left: 398px;
+  padding-right: 424px;
+  margin-left: -1px;
+  margin-top: 17px;
+  padding-top: 40px;
+  padding-bottom: 35px;
+}
+
+.user_team__button{
+  color: #FFF;
+  font-size: 40px;
+  font-weight: 500;
+  background: #00B74A;
+  padding-left: 353px;
+  margin-top: 100px;
+  padding-top: 96px;
+  padding-bottom: 74px;
+  width: 734px;
+}
+
 .result__payhistory,
-.result__rules {
+.result__rules
+{
     display: inline-block; /* Чтобы border-radius сработал, элемент должен быть блочным или строчно-блочным */
     padding-top: 37px;
     padding-bottom: 37px;
-    border-radius: 30px; /* Закругление углов */
+    border-radius: 50px; /* Закругление углов */
+    text-decoration: none; /* Убираем подчеркивание для стилизации ссылок */
+}
+
+.main__button,
+.team__button
+{
+    display: inline-block; /* Чтобы border-radius сработал, элемент должен быть блочным или строчно-блочным */
+    /* padding-top: 37px;
+    padding-bottom: 37px; */
+    border-radius: 50px; /* Закругление углов */
+    text-decoration: none; /* Убираем подчеркивание для стилизации ссылок */
+}
+
+.user_main__button,
+.user_team__button
+{
+    display: inline-block; /* Чтобы border-radius сработал, элемент должен быть блочным или строчно-блочным */
+    /* padding-top: 37px;
+    padding-bottom: 37px; */
+    border-radius: 50px; /* Закругление углов */
     text-decoration: none; /* Убираем подчеркивание для стилизации ссылок */
 }
 
@@ -209,4 +281,165 @@ body {
 	padding: 5px;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.choose__heading{
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+  margin-left: 149px;
+  margin-top: -29px;
+}
+
+.details__heading{
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 500;
+  border-radius: 10px;
+  background: #798CFF;
+  width: 462px;
+  padding-left: 24px;
+  padding-top: 17px;
+  height: 74px;
+}
+
+.details__text{
+  color: #000;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.details__coach, .details__location{
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.details__location{
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.details__span{
+  color: #57A618;
+  margin-left: 25px;
+}
+
+.details__diagram{
+  width: 268.013px;
+  height: 256.501px;
+}
+
+.team__subheading{
+  color: #000;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.team__span{
+  color: #4E7F62;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.team__svg{
+  width: 43px;
+  height: 39px;
+}
+
+.team__image{
+  width: 90px;
+  height: 90px;
+  border-radius: 60px;
+  background: url(<path-to-image>), rgb(255, 255, 255) 50% / cover no-repeat;
+  margin-left: 55px;
+  margin-top: 17px;
+}
+
+.team__text{
+  color: #000;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 46px;
+}
+
+.main__choose{
+  display: flex;
+  flex-direction: row;
+  margin-top: 127px;
+  margin-left: 34px;
+}
+
+.main__details{
+  border-radius: 50px;
+  border: 2px solid #000;
+  width: 1087px;
+  height: 1314px;
+  margin-left: 42px;
+  margin-top: -5px;
+}
+
+.main__user_details{
+  width: 1087px;
+  border-radius: 50px;
+  border: 2px solid #000;
+  height: 1876px;
+  margin-left: 42px;
+  margin-top: -23px;
+}
+
+.details__info_text{
+  margin-top: 49px;
+  margin-left: 81px;
+  margin-right: 10px;
+}
+
+.details__text_date{
+  display: flex;
+  flex-direction: row;
+  margin-top: -141px;
+  gap: 127px;
+}
+
+.details__text_important{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-top: -55px;
+}
+
+.details__group-diagram{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team__subheads{
+  display: flex;
+  flex-direction: row;
+  margin-left: 73px;
+  gap: 185px;
+}
+
+.team__item{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  height: 105px;
+}
+
+.team__list{
+  margin-left: 31px;
+  margin-top: -5px;
+}
+
+.team__information{
+  display: flex;
+  flex-direction: row;
+  margin-top: -44px;
+  margin-left: 5px;
+  gap: 43px;
 }
