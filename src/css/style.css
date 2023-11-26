@@ -227,12 +227,6 @@ body {
     text-decoration: none; /* Убираем подчеркивание для стилизации ссылок */
 }
 
-.result__table{
-  border-radius: 30px;
-  border: 2px solid #000;
-  margin-top: 100px;
-}
-
 .result__thead, .result__tr, .result__th{
   stroke-width: 2px;
   stroke: #000;
